@@ -2,8 +2,9 @@ package hello.servlet.web.frontcontroller_practice;
 
 import java.util.Map;
 import lombok.Getter;
+import lombok.Setter;
 
-@Getter
+@Getter @Setter
 public class ModelView {
 
     private Map<String, Object> model;
